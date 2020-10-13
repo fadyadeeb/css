@@ -1,0 +1,21 @@
+.width_height{
+    width:200px;
+    height:200px;
+}
+
+.red{
+    background-color:red;
+    float:left;
+    margin-top:100px;
+  
+}
+.green{
+    background-color:green;
+   float:left;
+  
+   
+}
+.blue{
+    background-color:blue;
+    
+}
