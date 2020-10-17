@@ -1,0 +1,123 @@
+ /* @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700"); */
+ /* @import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap'); */
+
+ /* body{ */
+    /* margin:0; */
+    /* font-family: "Roboto", sans-serif; */
+/* } */
+
+
+/* .container{
+    margin-top:100px;
+    width:100%;
+    height:500px;
+   
+
+}
+.section-img{
+    width:40%;
+    height:100%;
+    
+    float: left;
+    margin-left:10%;
+}
+.section-info{
+    width:40%;
+    height:100%;
+
+    float: left;
+}
+.section-img img{
+    height:80%;
+    
+}
+.section-info h2{
+    font-size:36px;
+    font-weight: 700;
+    line-height:50px;
+}
+.section-info p{
+color:#777777;
+}
+.section-info button{
+  
+}
+button{
+    border:none;
+    padding:15px 25px;  
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+}   */
+
+/* .container{ */
+    /* width:100%;
+    height:100px; */
+    /* background-color:blueviolet; */
+    /* margin-top:20;
+    margin-bottom:20;
+    margin-left:50;
+    margin-right:1;
+    margin:; */
+    /* margin:20px  50px; */
+    /* padding-top:20px;
+    padding-left:40px; */
+    /* padding-right:;
+    padding-bottom:; */ 
+    /*البادنج بياثر على ال Width وال height*/
+    /* هيبقى ال width 40من الشمال واليمين والارتفاع من فوق ومن تحت*/
+    /* padding:20px 20px 20px 20px; */
+    
+/* } */
+/* .items{ */
+    /* width:80%; */
+    /* height:100%; */
+    /* background-color:brown; */
+    /* margin:auto; */
+    
+/* } */
+/* .item{ */
+    /* width:15%;
+    height:50%; */
+    /* float:left; */
+    /* background-color:aqua;*/
+    /* border:1px solid grey; 
+    float:left;
+    text-align:center; */
+/* } */
+/* .item img{
+    margin-top:30%;
+    margin-left:15%;
+} */
+
+ /* .test{
+    font-size:40px; 
+     font-weight:normal; 
+    font-family: 'Rakkas', cursive;
+
+} */
+
+.test{
+     width:200px;
+    height:200px;
+    background-color:blueviolet; 
+    /*overflow:scroll;*/ /* scroll */;/*الفرق بين auto و scroll 
+    auto بتعمل Scroll راسى
+    لكن scroll بتعملى Scroll راسى وافقى
+    
+    
+    */
+}
+.box{
+    width:50px;
+    height:50px;
+    background: brown;
+    /* float:left; */
+}
+.boxtwo{
+width:50px;
+height:50px;
+background:green;
+/* float:left; */
+}
+.test{
+    float: right;
+}

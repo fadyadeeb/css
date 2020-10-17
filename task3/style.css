@@ -1,0 +1,28 @@
+
+
+body{
+    background:#f9f9f9;
+    
+}
+
+.container{
+    margin-top:60px;
+    height:300px;
+    /* background:red; */
+    margin-left:60px;
+    /* background:#fff; */
+    
+    
+}
+.item{
+    float:left;
+    border: 1px solid #ebebeb;
+    padding-left:20px;
+    width:180px; 
+    height:100px;
+    text-align:center;
+    padding-top:50px;
+    line-height:200px;
+    background:#fff;
+
+}
