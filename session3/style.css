@@ -1,0 +1,25 @@
+.category{
+    width:400px;
+    height:400px;
+    margin:40px auto;
+    /* background-color:blue; */
+    position: relative;
+     overflow:hidden;/*يعنى اللى بره الكاتجورى يختفى */
+}
+.category img{
+    width:100%;
+    height:100%;
+}
+.content{
+    width:200px;
+    height:100px;
+    background-color: rgba(00, 00, 100, 0.4);
+    position:absolute;
+    /* bottom:-200px; */
+    /* transition: all 1s; */
+}
+.category:hover .content{
+    bottom:40px;
+  
+  
+}

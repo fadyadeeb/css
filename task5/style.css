@@ -29,15 +29,15 @@ body{
 
 .contact{
 
-  width:60%;
+  width:70%;
 margin:auto;
-  height:500px;
+  height:2000px;
     
 }
 .message{
-  width:55%;
+  width:65%;
 float:left;
-margin-right:30px;
+margin-right:28px;
 }
 .message h3{
     color:#fff;
@@ -81,10 +81,12 @@ textarea{
 .info{
     float:left;
     background:#000;
-    width:40%;
+    opacity: 0.9;
+    width:32%;
     font-family: 'Montserrat', sans-serif;
-    height:600px;
+    height:540px;
     line-height: 30px;
+    
 
 }
 .info .title{
@@ -101,7 +103,7 @@ textarea{
   margin-bottom:30px;
 }
 .font{
-    margin-left:30px;
+    margin-left:50px;
 }
 a{
     display: inline-block;

@@ -1,0 +1,31 @@
+.container{
+    width:400px;
+    height:400px;
+    /* background:green; */
+    margin:100px auto;
+    position:relative;
+    overflow: hidden;
+    
+}
+.container img{
+    width:100%;
+    heigHt:100%;
+}
+.text{
+    width:300px;
+    height:130px;
+    background:red;
+    position:absolute;
+    bottom:-200px;
+    transition: 1s all;
+    
+  
+
+}
+.overlay{
+    width:300px;
+    opacity:0.6;
+}
+.container:hover .text{
+    bottom:60px;
+}
