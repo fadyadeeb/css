@@ -23,9 +23,9 @@
 
 }
 .overlay{
-    width:300px;
+    width:100%;
     opacity:0.6;
 }
 .container:hover .text{
-    bottom:60px;
+    bottom:30px;
 }
