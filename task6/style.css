@@ -24,7 +24,7 @@ body{
     text-align: center;
     overflow: hidden;
     padding-top:12%;
-    font-size:18px;
+    font-size:17px;
     font-family: "Poppins", sans-serif;
     color:#F0ECF9;
    
@@ -49,6 +49,8 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     position:relative;
+    
+    
    
 }
 .button a{
@@ -57,7 +59,6 @@ body{
     text-transform: uppercase;
     border:0;
     display: inline-block;
-    
     position: relative;
     right:20px;
     
