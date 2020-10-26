@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.box{
+    width:30px;
+    height:40px;
+    /* background-color:green; */
+    border:1px solid gray;
+    margin:auto;
+    border-radius:30% ;
+    -webkit-border-radius:30% ;
+    -moz-border-radius:30% ;
+    -ms-border-radius:30% ;
+    -o-border-radius:30% ;
+    position: relative;
+}
+.pointer{
+   position: absolute;
+   left:45%;
+   top:10%;
+    width:4px;
+    height:4px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    background-color: red;
+    animation-name: p;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes p{
+    0%{
+        top:10%;
+    }
+    25%{
+        top:20%;
+    }
+    50%{
+        top:30%;
+    }
+    100%{
+        top:40%;
+    }
+}

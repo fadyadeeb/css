@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.box{
+    width:200px;
+    height:200px;
+    margin:auto;
+    background:brown;
+    transition: 1s 3s all;
+    /*SHORTHANDCODE*/-moz-transition:1s 3s all;
+    -ms-transition: 1s 3s all;
+    -o-transition: 1s 3s all;
+    -webkit-transition: 1s 3s all;
+    /*Allمعناهااىتحركعندكعلىالبوكسدهنفذهفىثانية*/-moz-transition: 1s 1s all;
+    -moz-transition: 1s 3s all;
+}
+
+.box:hover{
+  background:blue;
+  transform: TRANSLATE(200PX);
+  -webkit-transform: TRANSLATE(200PX);
+  -moz-transform: TRANSLATE(200PX);
+  -ms-transform: TRANSLATE(200PX);
+  -o-transform: TRANSLATE(200PX);
+}

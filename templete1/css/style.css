@@ -11,7 +11,7 @@ body{
 }
 header{
    
- 
+    width:100%;
     height:600px;
     background:url("../img/cover.jpg");
     background-position: center;
@@ -23,25 +23,37 @@ header{
     width:1200px;
     margin:auto;
 }
+.nav{
+    width:100%;
+    background-color: yellowgreen;
+    height:60px;
+    position:fixed;
+    top:0;
+    z-index:1;
+
+   
+}
 .logo{
-    width:70%;
+    /* width:70%; */
+     float:left;
+    height:80px;
+    margin-top:10px;
+    top:2%;
   
-    float:left;
-    height:40px;
-    margin-top:30px;
    
   
   
 }
 .menu{
-    margin-top:30px;
+    margin-top:10px;
     width:30%;
-
     float:right;
     height:40px;
-   
-    position: absolute;
+  
     right:0;
+    top:2%;
+ 
+   
     
    
 }
@@ -77,17 +89,19 @@ header{
 .title{
   
     text-align: center;
-    margin-top:80px;
-    color:#F0ECF9;
+    margin-top: 56px;
+    color: #F0ECF9;
+    overflow: hidden;
    
   
   
 }
 .title h1{
-    font-size:60px;
+    font-size: 60px;
     font-weight: 100;
     line-height: 80px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
 }
 .title p{
     font-size:16px;
@@ -533,14 +547,20 @@ background:#fff;
         width: 52%;
       }
 
-        form{
+       .keep form{
+            width:100%;
+            margin:auto;
+            margin: 0 50px;
+        }
+
+        .together form{
             width:85%;
             margin:auto;
+            margin: 0 40px;
         }
       form input{
         width:37%;
-      
-        height: 45px;
+            height: 45px;
         border: 1px solid #d4d5e0;
         padding:0 20px;
         margin-righT:35px;
