@@ -184,10 +184,10 @@
     }
    
    
-    85%{
+   100%{
         position: relative;
         top:85%;  
-        opacity:0.2;
+        opacity:0;
     }
 }
 .business .container
@@ -395,10 +395,10 @@ height:750px;
     margin-left:20px;
     
 }
-.icon{
+/* .icon{
     padding-top:30px;
     cursor: pointer;
-}
+} */
 
 fa-arrow-alt-circle-left{
   margin-right:60px;
@@ -431,26 +431,23 @@ fa-arrow-alt-circle-left{
     align-items: center;
 }
 .buy .info a{
-    margin-top:50px;
+    margin-top: 49px;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     margin-righT: 10px;
-    heighT: 75px;
+    heighT: 63px;
     widtH: 200px;
     text-align: center;
-    line-heighT: 80px;
+    line-heighT: 63px;
     font-size: 14px;
     font-family: 'Open Sans',arial;
     background-color: #4274b7;
     color: #fff;
     font-weight: bolder;
     border: 2px solid transparent;
-    transition:1s all;
-    -webkit-transition:1s all;
-    -moz-transition:1s all;
-    -ms-transition:1s all;
-    -o-transition:1s all;
+    transition: 1s all;
+    -webkit-transition: 1s all;
 }
 .buy .info a:hover{
     background:#000;
